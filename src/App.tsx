@@ -1,20 +1,20 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import HomePage from "./pages/HomePage.tsx";
-import ConfirmationPage from "./pages/ConfirmationPage.tsx";
-import MainPage from "./pages/MainPage.tsx";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import HomePage from './pages/HomePage.tsx';
+import ConfirmationPage from './pages/ConfirmationPage.tsx';
+import MainPage from './pages/MainPage.tsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <HomePage />,
     errorElement: <div>404 not found</div>, // change hardcode to page component
   },
   {
-    path: "confirmation",
+    path: 'confirmation',
     element: <ConfirmationPage />,
   },
   {
-    path: "confirmation/main",
+    path: 'confirmation/main',
     element: <MainPage />,
   },
 ]);

@@ -14,29 +14,31 @@ const ConfirmationPage = () => {
   };
 
   return (
-    <section
-      className="h-screen w-screen mx-auto bg-center bg-cover xs:bg-[url('/src/assets/images/xs/xs-conf-bg.jpeg')]
-    md:bg-[url('/src/assets/images/md/md-conf-bg.jpeg')] lg:bg-[url('/src/assets/images/lg/lg-conf-bg.jpeg')]
-    xl:bg-[url('/src/assets/images/xl/xl-conf-bg.jpeg')] 1.5xl:bg-[url('/src/assets/images/1.5xl/1.5xl-conf-bg.jpeg')]
-    2xl:bg-[url('/src/assets/images/2xl/2xl-conf-bg.jpeg')] 3xl:bg-[url('/src/assets/images/3xl/3xl-conf-bg.jpeg')]"
-    >
-      <CaptainJackHeader />
+    <section className="h-screen w-auto mx-auto bg-center bg-cover bg-[url('/confirmation-page-bg-desktop2.png')]">
+      <div className="bg-[url('/texture.png')]">
+        <CaptainJackHeader className="z-10 font-cinzel text-3xl text-center font-bold text-white p-3 md:text-4xl lg:p-0" />
+      </div>
+      <div className="flex mx-auto h-[343px] w-[343px] mt-12 md:h-[492px] md:w-[492px] lg:h-[267px] lg:w-[330px] ">
+        <img
+          src="/chalk.png"
+          alt="18+ chalk"
+          className="object-cover w-full h-full"
+        />
+      </div>
       <h2
-        className="font-montserrat  font-semibold text-white text-center xs:text-[16px] xs:leading-6 xs:px-2 xs:mt-[30rem]
-        md:text-[28px] md:leading-[42px] md:px-10 md:mt-[35rem] lg:px-24 lg:mt-[24rem] xl:px-56 xl:mt-[22rem]
-        1.5xl:text-[32px] 1.5xl:leading-[48px] 1.5xl:mt-[28rem] 2xl:px-72 3xl:mt-[38rem]"
+        className="font-montserrat font-semibold text-center text-white text-[16px] mt-16
+        md:text-[28px] md:leading-[42px] md:px-10 lg:text-[28px] lg:px-24 lg:mt-1"
       >
         Доступ на веб-сайт разрешен только гражданам РФ старше 18 лет,
         являющимся потребителем табака.
       </h2>
       <p
-        className="font-montserrat text-[#BFBFBF] text-center xs:text-[14px] xs:px-14 xs:mt-8 xs:leading-[21px]
-      md:text-[18px] md:leading-[27px] md:px-40 md:mt-14 lg:px-64 xl:px-96 xl:mt-12 1.5xl:text-[20px] 1.5xl:px-[26rem]
-      2xl:leading-[30px] 2xl:px-[30rem] 3xl:px-[40rem]"
+        className="font-montserrat text-[#BFBFBF] text-center text-[14px] px-14 mt-8 leading-[21px]
+      md:text-[18px] md:leading-[27px] md:px-40 md:mt-14 lg:px-64 lg:mt-0"
       >
         Я потверждаю что мне есть 18 лет и я являюсь потребителем табака
       </p>
-      <div className="flex justify-center mt-10 lg:mt-8 1.5xl:mt-12">
+      <div className="flex justify-center mt-10 lg:mt-1">
         <Button
           title="Нет"
           className="bg-[#52212E] font-montserrat font-semibold text-white rounded-md px-[64px] py-3 mx-0.5 hover:bg-[#471D28]"
