@@ -24,7 +24,7 @@ const ProductGreen = () => {
           <img
             src="/apple-blur.png"
             alt="apple-blur"
-            className="hidden lg:block lg:absolute lg:w-[53px] lg:-right-20 lg:-bottom-52 xl:-bottom-72 xl:w-[69px]"
+            className="hidden lg:block lg:absolute lg:w-[53px] lg:-right-20 lg:-bottom-52 xl:-bottom-72 xl:w-[69px] 2xl:w-[99] 2xl:-bottom-96 2xl:-right-64"
           />
         </div>
         <div className="relative container mx-auto mt-32 md:mt-52 lg:mt-0 xl:-mt-6">
@@ -34,18 +34,18 @@ const ProductGreen = () => {
               src="/green-ks.png"
               alt="cigarette"
               className="absolute -rotate-4 object-cover z-20 left-[15%] w-[200px] h-[330px]
-            md:left-[30%] md:w-[225px] md:h-[400px] lg:left-[35%] xl:w-[252px] xl:h-[450px]"
+            md:left-[30%] md:w-[225px] md:h-[400px] lg:left-[35%] xl:w-[252px] xl:h-[450px] 2xl:h-[550px]"
             />
             <img
               src="/green-ssl.png"
               alt="cigarette"
               className="absolute rotate-4 object-cover z-10 -top-5 left-[40%] w-[200px] h-[330px]
-            md:left-[47%] md:w-[225px] md:h-[400px] lg:left-[49%] xl:w-[252px] xl:h-[450px]"
+            md:left-[47%] md:w-[225px] md:h-[400px] lg:left-[49%] xl:w-[252px] xl:h-[450px] 2xl:h-[550px]"
             />
-            <div className="absolute left-[15%] top-5 md:left-[30%] lg:left-[35%]">
+            <div className="absolute left-[15%] top-5 md:left-[30%] lg:left-[35%] xl:left-[37%] xl:top-7 2xl:left-[35%] 2xl:top-12">
               <RedCircle label="KS" />
             </div>
-            <div className="absolute left-[50%] -top-5 z-0 md:left-[55%] lg:left-[57%]">
+            <div className="absolute left-[50%] -top-5 z-0 md:left-[55%] lg:left-[57%] xl:-top-4 2xl:left-[54%] 2xl:-top-1">
               <RedCircle label="SSL" />
             </div>
           </div>
@@ -61,22 +61,22 @@ const ProductGreen = () => {
         <img
           src="/map.png"
           alt="map"
-          className="hidden lg:block lg:absolute lg:object-cover lg:w-[760px] lg: lg:z-10 lg:bottom-0 xl:w-[944px]"
+          className="hidden md:block md:absolute md:object-cover md:w-[500px] md:bottom-0 lg:w-[640px] lg:z-10  xl:w-[760px] 2xl:w-[865px]"
         />
         <img
           src="/chest-malachite.png"
           alt="chest-malachite"
-          className="hidden lg:block lg:z-20 lg:absolute lg:w-[365px] lg:bottom-0 xl:w-[454px]"
+          className="hidden md:block md:z-20 md:absolute md:w-[230px] md:bottom-0 lg:w-[280px] 2xl:w-[400px]"
         />
         <img
           src="/spyglass.png"
           alt="spyglass"
-          className="hidden lg:block lg:z-20 lg:absolute lg:w-[365px] lg:bottom-0 lg:left-80 xl:w-[498px] xl:left-96"
+          className="hidden md:block md:z-20 md:absolute md:bottom-0 md:w-[280px] md:left-44 lg:left-80 xl:w-[401px] xl:left-96 2xl:w-[450px]"
         />
       </div>
     </section>
   );
 };
-// test
+
 
 export default ProductGreen;

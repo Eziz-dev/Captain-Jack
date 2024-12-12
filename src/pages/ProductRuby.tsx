@@ -1,6 +1,6 @@
 import RedCircle from "../components/RedCircle.tsx";
 
-const ProductOriginal = () => {
+const ProductRuby = () => {
   return (
     <section className="h-screen w-screen  ">
       <div className="relative h-screen w-auto bg-center bg-cover bg-[url('/Green-min.png')]">
@@ -8,23 +8,25 @@ const ProductOriginal = () => {
           <img src="/signboard.png" alt="signboard" />
           <div className="absolute inset-0 flex items-center justify-center">
             <h3 className="absolute top-16 font-unbounded text-3xl text-white text-center lg:text-5xl xl:text-[56px] xl:top-20">
-              ORIGINAL
+              RUBY
             </h3>
             <div className="font-montserrat font-medium text-white inset-0 flex justify-center">
-              <p className="absolute top-28 left-6 mt-1 lg:pr-4 lg:top-32 xl:top-36">
-                Captain Jack Original это ароматные ноты шоколада и деликатный
-                вкус, полученный благодаря смягчённой мешке качественных табаков
-                Вирджиния.
+              <p className="absolute text-base inset-x-0 leading-5 top-24 left-6 mt-1 lg:pr-4 lg:top-32 xl:top-36">
+                Captain Jack Ruby – это сбалансированная классика с лёгким
+                ароматом вишни.
+              </p>
+              <p className="absolute inset-x-0 top-40 leading-5 left-6 pr-5 lg:top-48 xl:top-52">
+                Выдержанный табак Вирджиния ненавязчиво оттеняется благородными
+                сладкими нотами с привкусом миндальной косточки.
               </p>
             </div>
           </div>
-
         </div>
         <div className="relative container mx-auto mt-32 md:mt-52 lg:mt-0 xl:-mt-6">
           {/*cigarette*/}
           <div className="relative flex justify-center lg:ml-96 xl:ml-[28rem]">
             <img
-              src="/original-ks.png"
+              src="/ruby-ks.png"
               alt="cigarette"
               className="object-cover rotate-6 z-20 w-[200px] h-[330px]
             md:left-[30%] md:w-[225px] md:h-[400px] lg:left-[35%] xl:w-[252px] xl:h-[450px] 2xl:h-[550px]"
@@ -35,33 +37,21 @@ const ProductOriginal = () => {
           </div>
 
           <img
-            src="/chocolate.png"
-            alt="chocolate"
-            className="absolute top-72 right-10 w-[70px] z-30 md:top-[26rem] md:right-52
-            lg:bottom-0 lg:right-10 xl:-bottom-5"
+            src="/cherry.png"
+            alt="cherry and almond"
+            className="absolute top-72 right-10 w-[110px] z-30 md:top-[26rem] md:right-52
+            lg:bottom-0 lg:right-10 xl:-bottom-10"
           />
-          <img
-            src="/chocolate-left.png"
-            alt="chocolate"
-            className="hidden md:block absolute w-[70px] z-30 md:top-60 md:left-40
-            lg:bottom-0 lg:right-10 xl:-bottom-5 xl:left-96"
-          />
-          <img
-            src="/chocolate-right.png"
-            alt="chocolate"
-            className="hidden md:block absolute w-[70px] z-30 md:top-80 md:right-40
-            lg:bottom-0 lg:right-10 xl:-bottom-5"
-          />
+          {/*left bottom corner*/}
         </div>
-        {/*left bottom corner*/}
         <img
           src="/map.png"
           alt="map"
           className="hidden md:block md:absolute md:object-cover md:w-[500px] md:bottom-0 lg:w-[640px] lg:z-10  xl:w-[760px] 2xl:w-[865px]"
         />
         <img
-          src="/chest-gold.png"
-          alt="chest-gold"
+          src="/chest-ruby.png"
+          alt="chest-ruby"
           className="hidden md:block md:z-20 md:absolute md:w-[230px] md:bottom-0 lg:w-[280px] 2xl:w-[400px]"
         />
         <img
@@ -74,4 +64,4 @@ const ProductOriginal = () => {
   );
 };
 
-export default ProductOriginal;
+export default ProductRuby;
