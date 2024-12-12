@@ -8,6 +8,10 @@ export default {
         montserrat: ["Montserrat", "sans-serif"],
         cinzel: ["Cinzel", "sans-serif"],
       },
+      colors: {
+        primary: "#B61C3E",
+        secondary: "#52212E"
+      }
     },
   },
   plugins: [],

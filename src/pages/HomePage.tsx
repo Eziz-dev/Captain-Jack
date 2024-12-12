@@ -1,5 +1,6 @@
 // image resolutions
 // optimize bg for my display
+// change colors class
 
 import Button from "../components/Button";
 import { useNavigate } from "react-router-dom";
